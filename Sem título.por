@@ -1,13 +1,15 @@
 programa {
   funcao inicio() {
-     cadeia nome
-     inteiro x
-    
-  escreva ("Digite seu nome?")
-  leia(nome)
-  escreva("Qual sua idade")
-  leia(x)
-  escreva ("ok, eu nome é ",nome)
-  escreva("Sua idade é:",x)
+    inteiro n1
+    inteiro n2
+    inteiro soma
+
+    escreva("Digite o número:")
+    leia(n1)
+    escreva("Digite o número:")
+    leia(n2)
+
+    soma = n1+n2
+    escreva ("A soma de ",n1,"+",n2, "é igual a ",soma)
   }
 }
